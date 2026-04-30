@@ -37,7 +37,7 @@ This project addresses those gaps using data analytics and baseline machine lear
 ---
 
 ## Architecture
-
+```bash
 Defect-intelligence-engine/
 │
 ├── main.py
@@ -56,7 +56,7 @@ Defect-intelligence-engine/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## KPI Engine
@@ -123,22 +123,22 @@ This indicates that defect lead time is influenced by organizational and context
 ## How to Run
 
 ### 1. Create virtual environment
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 ### 2. Install dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ### 3. Run preprocessing pipeline
-
+```bash
 python main.py
-
+```
 ### 4. Launch dashboard
-
+```bash
 streamlit run app.py
-
+```
 ---
 
 ## Project Scope
