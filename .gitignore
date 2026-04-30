@@ -1,4 +1,15 @@
+# Virtual environment
 venv/
+
+# Raw data
 data/raw/
+
+# python cache
+src/__pycache__/
+src/analysis/__pycache__/
+src/modeling/__pycache__/
+src/preprocessing/__pycache__/
+
+# Personal files
 LinkedInCV.txt
 iterations-plan.md
